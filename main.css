@@ -1,0 +1,108 @@
+/* this is a comment */
+
+h1 {
+  color: mistyrose;
+  background-color: gray;
+width: 100%
+margin: 0;
+padding: 0;
+overflow: hidden;
+
+}
+
+h3 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+ul {
+  text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+li a {
+    display: block;
+    padding: 5px;
+      color: mistyrose;
+}
+li a:hover {
+    background-color: #E0FFFF;
+}
+
+li {
+  display:inline-block;
+    float: left;
+    border-right: 1px solid #bbb;
+    }
+
+li {
+  li:last-child {
+    border-right: none;
+}
+
+/* this is a class, classes can be used over and over in our html */
+.testing {
+  border: 10px dotted blue;
+}
+
+/* ids should be unique and only used once in our html */
+#testID {
+
+
+  background-color: white;
+}
+
+/* this is a descendant selector and CSS will only be applied to h1 elements that are inside of a div element*/
+/*
+div h1{
+color: orange;
+backgrouond-color: black;
+}
+.testing, h1, p, #testID {
+  color: cyan;
+}
+ul {
+  text-align: center;
+    list-style-type:none;
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+li a {
+    display:inline-block;
+    color: white;
+    text-align:right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+/*li a:hover {
+    background-color: #111;
+}
+
+
+ul {
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li a {
+    color: #666;
+}
+
+li a {
+  text-align: center;
+}
+li a { vertical-align: top }
+*/
